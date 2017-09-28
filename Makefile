@@ -3,8 +3,5 @@
 run:
 	docker run -it --rm -p 8888:8888 mgr
 
-build: Dockerfile
-
-Dockerfile:
-	docker rmi mgr
+build:
 	docker build -t mgr .
