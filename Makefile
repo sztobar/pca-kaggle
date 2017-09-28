@@ -1,7 +1,7 @@
 .PHONY: run build
 
 run:
-	docker run -it --rm -p 8888:8888 mgr
+	docker run -it --rm -p 8888:8888 pca-kaggle
 
 build:
-	docker build -t mgr .
+	docker build -t pca-kaggle .
